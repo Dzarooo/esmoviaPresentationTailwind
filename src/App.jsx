@@ -24,8 +24,38 @@ function App() {
             <h3 className="text-3xl font-light text-slate-300">It is a CSS framework focused on attaching styles to HTML elements directly, rather than have them in separate CSS file or <code className="p-1 rounded-lg bg-slate-800">&lt;style&gt;</code> tag</h3>
           </div>
           <div className="flex flex-col items-end justify-center w-1/2 gap-20">
-            <img className="w-[300px] [transform:translateX(-50px)] rounded-md" src="code2.png" alt="Tailwind CSS"></img>
-            <img className="w-[600px] [transform:translateX(-50px)] rounded-md" src="code3.png" alt="Tailwind CSS"></img>
+            <div className="px-2 py-2 h-fit bg-slate-900 rounded-2xl w-[400px]">
+              <code className="pl-2 text-slate-500">CSS</code>
+              <code className="flex flex-col p-4 border-2 border-solid border-slate-400 bg-slate-900 rounded-xl">
+                <span>main &gt; div &#123;</span>
+                <span className="whitespace-pre">&#9;height: 90vh;</span>
+                <span className="whitespace-pre">&#9;display: flex;</span>
+                <span className="whitespace-pre">&#9;flex-direction: column;</span>
+                <span className="whitespace-pre">&#9;align-items: center</span>
+                <span className="whitespace-pre">&#9;justify-content: center</span>
+                <span>&#125;</span>
+                <span className="whitespace-pre">&#10;</span>
+                <span>main &gt; div &gt; p &#123;</span>
+                <span className="whitespace-pre">&#9;font-size: 25px;</span>
+                <span>&#125;</span>
+                <span className="whitespace-pre">&#10;</span>
+                <span>main &gt; div &gt; p:nth-child(2) &#123;</span>
+                <span className="whitespace-pre">&#9;font-size: 70px;</span>
+                <span className="whitespace-pre">&#9;line-height: 0.9;</span>
+                <span>&#125;</span>
+              </code>
+            </div>
+            <div className="px-2 py-2 h-fit bg-slate-900 rounded-2xl w-[800px]">
+              <code className="pl-2 text-slate-500">Tailwind</code>
+              <code className="flex flex-col p-4 border-2 border-solid border-slate-400 bg-slate-900 rounded-xl">
+                <span>&lt;div className="flex items-center justify-around w-full h-full p-5"&gt;</span>
+                <span className="whitespace-pre">&#9;&lt;div className="flex flex-col items-start justify-center h-full gap-5 w-fit&gt;</span>
+                <span className="whitespace-pre">&#9;&#9;&lt;h1 className="text-7xl text-slate-200&gt;Tailwind in action&lt;/h1&gt;</span>
+                <span className="whitespace-pre">&#9;&lt;/div&gt;</span>
+                <span className="whitespace-pre">&lt;/div&gt;</span>
+              </code>
+            </div>
+
           </div>
         </div>
       </Slide>
