@@ -136,19 +136,19 @@ function App() {
           <h1 className="text-7xl">Examples - Articles.</h1>
 
           <div className="flex items-center flex-col gap-4">
-            <div className="flex items-center gap-5 bg-slate-50 p-5 rounded-xl [box-shadow:0_5px_10px_5px_rgba(0,0,0,0.1)] w-[70vw] h-full">
+            <div className="flex items-center gap-5 bg-slate-50 p-5 rounded-xl [box-shadow:0_5px_10px_5px_rgba(0,0,0,0.1)] w-[70vw] h-full hover:[transform:translateY(-3px)] hover:[box-shadow:0_8px_5px_0px_rgba(0,0,0,0.3)] transition-[transform,box-shadow] group">
               <div className="flex-1 flex flex-col gap-3">
                 <h1 className="text-2xl text-slate-800">Lorem ipsum dolor sit amet</h1>
                 <p className="text-slate-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis harum, odio quisquam esse, et tenetur ab deleniti Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis harum, odio quisquam esse, et tenetur ab deleniti. <a href="" className="text-blue-600 underline">Learn more <i class="bi bi-arrow-right-short"></i></a></p>
               </div>
               <div className="h-full">
-                <img className="h-full max-h-[200px] object-cover object-center rounded-lg" src="tailwindlogo.svg" alt="code" />
+                <img className="h-full max-h-[200px] object-cover object-center rounded-lg group-hover:[transform:scale(1.05)] transition-[transform]" src="tailwindlogo.svg" alt="code" />
               </div>
             </div>
 
-            <div className="flex items-center gap-5 bg-slate-50 p-5 rounded-xl [box-shadow:0_5px_10px_5px_rgba(0,0,0,0.1)] w-[70vw] h-full">
+            <div className="flex items-center gap-5 bg-slate-50 p-5 rounded-xl [box-shadow:0_5px_10px_5px_rgba(0,0,0,0.1)] w-[70vw] h-full hover:[transform:translateY(-3px)] hover:[box-shadow:0_8px_5px_0px_rgba(0,0,0,0.3)] transition-[transform,box-shadow] group">
               <div className="h-full">
-                <img className="h-full max-h-[200px] object-cover object-center rounded-lg" src="code1.png" alt="code" />
+                <img className="h-full max-h-[200px] object-cover object-center rounded-lg group-hover:[transform:scale(1.05)] transition-[transform]" src="code1.png" alt="code" />
               </div>
               <div className="flex-1 flex flex-col gap-3">
                 <h1 className="text-2xl text-slate-800">Lorem ipsum dolor sit amet</h1>
